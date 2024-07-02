@@ -75,7 +75,7 @@ html {
   text-align: center;
 }
 
-.section-heading{
+.section-heading {
   margin-top: 0;
   margin-bottom: 25px;
   font-style: 36px;
@@ -104,7 +104,7 @@ html {
   height: 100%;
 }
 
-.logo{
+.logo {
   transform: translateY(5px);
 }
 
@@ -186,7 +186,8 @@ html {
   width: 13px;
   height: 17px;
   margin-right: 10px;
-  background: url(../img/Vector-hero-secure.svg) center center no-repeat transparent;
+  background: url(../img/Vector-hero-secure.svg) center center no-repeat
+    transparent;
   background-size: contain;
   transform: translateY(-1px);
 }
@@ -368,6 +369,41 @@ html {
   color: #787878;
 }
 
+/* Form */
+.form-title {
+  text-align: center;
+}
+
+.form-description {
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #787878;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 58px;
+}
+
+.input,
+.btn-submit {
+  flex: 0 0 calc(25% - 15px);
+  height: 60px;
+  border-radius: 30px;
+}
+
+.input {
+  padding: 0 30px;
+  border: 1px solid #dadada;
+  border-radius: 30px;
+}
+
+.input::placeholder {
+  color: #787878;
+}
+
 /* Footer */
 
 .footer {
@@ -388,7 +424,7 @@ html {
 }
 
 .footer-logo {
-  margin-right: 25px;  
+  margin-right: 25px;
 }
 
 .footer-copyrights {
