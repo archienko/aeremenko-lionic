@@ -136,7 +136,7 @@ html {
 
 /* Hero */
 .section-hero {
-  background: url(/img/hero.jpg) right center no-repeat white;
+  background: url(../img/hero.jpg) right center no-repeat white;
   background-size: contain;
 }
 
@@ -340,15 +340,15 @@ html {
 }
 
 .section-contacts-icon-gps {
-  background-image: url(/img/Vectorlocation.svg);
+  background-image: url(../img/Vectorlocation.svg);
 }
 
 .section-contacts-icon-phone {
-  background-image: url(/img/Vectorphone.svg);
+  background-image: url(../img/Vectorphone.svg);
 }
 
 .section-contacts-icon-mail {
-  background-image: url(/img/Vectormail.svg);
+  background-image: url(../img/Vectormail.svg);
 }
 
 .section-contacts-heading {
@@ -474,18 +474,18 @@ html {
 .footer-social-icon-twitter {
   width: 18px;
   height: 15px;
-  background-image: url(/img/twitter.svg);
+  background-image: url(../img/twitter.svg);
 }
 
 .footer-social-icon-in {
   width: 18px;
   height: 19px;
-  background-image: url(/img/in.svg);
+  background-image: url(../img/in.svg);
   transform: translateY(-2px);
 }
 
 .footer-social-icon-mail {
   width: 24px;
   height: 17px;
-  background-image: url(/img/Vector-footer-mail.svg);
+  background-image: url(../img/Vector-footer-mail.svg);
 }
